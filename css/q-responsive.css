@@ -1,0 +1,37 @@
+
+
+
+@media (min-width: 1200px) {
+    .row-fluid .span2o5{
+        width:16.5%;
+    }
+    .row-fluid .span7o5{
+        width:61.5%;
+    }
+}
+
+@media (min-width: 979px) and (max-width: 1200px) {
+    .row-fluid .span2o5{
+        width:16%;
+    }
+    .row-fluid .span7o5{
+        width:61%;
+    }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    .row-fluid .span7o5{
+        width:60%;
+    }
+    .row-fluid .span2o5{
+        width:16%;
+    }
+}
+
+@media (max-width: 768px) {
+    .row-fluid .span2o5{
+        width:100%;
+    }
+    .row-fluid .span7o5{
+        width:100%;
+    }
+}
